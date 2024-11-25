@@ -2,7 +2,7 @@
 <table border="0">
   <tr>
     <td width="75%">
-      <h1>xiaoyutian</h1>
+      <h1>leipengic</h1>
       <p><b>本科</b></p>
       <p><b>黑龙江科技大学管理学院</b></p>
       <p><b>邮箱：leip6@qq.com</b></p>
