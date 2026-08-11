@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+title: leipengic's Personal Homepage
+description: 个人主页 - 建筑企业信息化转型、数字赋能技术研究
+author: leipengic
+lang: zh-CN
+timezone: Asia/Shanghai
+baseurl: ""
+url: "https://hyx.leipeng.us.kg"
+plugins:
+  - jekyll-seo-tag
