@@ -1,10 +1,25 @@
-theme: jekyll-theme-cayman
-title: leipengic's Personal Homepage
-description: 个人主页 - 建筑企业信息化转型、数字赋能技术研究
+title: leipengic
+description: 建筑企业信息化转型、数字赋能技术研究 | 小雨田的个人博客
 author: leipengic
 lang: zh-CN
 timezone: Asia/Shanghai
 baseurl: ""
 url: "https://hyx.leipeng.us.kg"
+
+# 博客主题：minima 是 Jekyll 官方博客主题，自带文章列表/导航/RSS
+theme: minima
+
 plugins:
-  - jekyll-seo-tag
+  - jekyll-feed        # 生成 /feed.xml 订阅源
+  - jekyll-seo-tag     # 自动生成 SEO 元信息
+
+# 顶部导航页（按顺序排列）
+header_pages:
+  - about.md
+  - archive.md
+
+# 不纳入站点构建的文件
+exclude:
+  - .idea
+  - README.md
+  - LICENSE

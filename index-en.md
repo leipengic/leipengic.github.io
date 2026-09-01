@@ -1,3 +1,9 @@
+---
+layout: page
+title: About (English)
+permalink: /index-en.html
+---
+
 <div>
 <table border="0">
   <tr>
@@ -7,7 +13,7 @@
       <p><b>Heilongjiang University of Science and Technology, School of Management</b></p>
       <p><b>E-mail： ***@***.******.***</b></p>
       <p><b>Address: Heilongjiang University of Science and Technology (Songbei District, Harbin)</b></p>
-      <a href="/index.html">中文版</a>
+      <a href="/">中文版</a>
     </td>
     <td width="25%">
       <img src="/stock-photo.jpg" width="100%">
