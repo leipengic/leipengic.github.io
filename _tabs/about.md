@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-<img src="/stock-photo.jpg" alt="小雨田" style="width:150px;max-width:40%;float:right;margin:0 0 1rem 1rem;border-radius:8px;">
+<img src="/assets/img/avatar.jpg" alt="小雨田" style="width:150px;max-width:40%;float:right;margin:0 0 1rem 1rem;border-radius:8px;">
 
 # 小雨田 / leipengic
 

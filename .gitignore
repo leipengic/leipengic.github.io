@@ -1,5 +1,17 @@
+# ===== 操作系统 / 编辑器 =====
+.DS_Store
 .idea/
+*.iml
+
+# ===== Python =====
 __pycache__/
 *.pyc
-.DS_Store
-*.iml
+
+# ===== Jekyll / Chirpy 构建产物（不要提交）=====
+/_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+/.bundle/
+/vendor/
+Gemfile.lock

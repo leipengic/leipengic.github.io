@@ -16,7 +16,7 @@ permalink: /index-en.html
       <a href="/">中文版</a>
     </td>
     <td width="25%">
-      <img src="/stock-photo.jpg" width="100%">
+      <img src="/assets/img/avatar.jpg" width="100%">
     </td>
   </tr>
 </table>
