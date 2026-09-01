@@ -1,34 +1,40 @@
-title: leipengic
+# ===== 基础信息 =====
+title: 小雨田的博客
+subtitle: 建筑企业信息化转型 · 数字赋能技术
 description: 建筑企业信息化转型、数字赋能技术研究 | 小雨田的个人博客
-author: leipengic
+url: "https://hyx.leipeng.us.kg"
+baseurl: ""
 lang: zh-CN
 timezone: Asia/Shanghai
-baseurl: ""
-url: "https://hyx.leipeng.us.kg"
+locale: zh-CN
 
-# 文章永久链接：去掉分类前缀，保持 /年/月/日/标题.html 的干净结构
+# 文章永久链接（保留原结构，避免旧链接失效）
 permalink: /:year/:month/:day/:title.html
 
-# 博客主题：minima 是 Jekyll 官方博客主题，自带文章列表/导航/RSS
-theme: minima
+# ===== 主题外观：light / dark =====
+theme_mode: light
 
-plugins:
-  - jekyll-feed        # 生成 /feed.xml 订阅源
-  - jekyll-seo-tag     # 自动生成 SEO 元信息
-
-# 顶部导航页（按顺序排列）
-header_pages:
-  - about.md
-  - archive.md
-
-# 不纳入站点构建的文件
-exclude:
-  - .idea
-  - README.md
-  - LICENSE
-
-# 社交链接（页脚展示；请把占位符替换为你的真实地址）
+# ===== 社交链接（Chirpy 自动识别图标；请替换占位符）=====
 social:
-  github: "https://github.com/leipengic"
-  bilibili: "https://space.bilibili.com/你的UID"
-  wechat: "https://weixin.qq.com/r/你的公众号二维码或主页"
+  name: leipengic
+  email: leipengic@example.com
+  links:
+    - https://github.com/leipengic
+    - https://space.bilibili.com/你的UID
+    - https://weixin.qq.com/r/你的公众号二维码或主页
+
+# ===== 分页 =====
+paginate: 10
+paginate_path: /page/:num/
+
+# ===== Chirpy 需要的 tabs 集合（用于顶部导航）=====
+collections:
+  tabs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tabs"
+    values:
+      layout: "page"

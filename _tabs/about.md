@@ -1,7 +1,6 @@
 ---
+title: 关于
 layout: page
-title: 关于我
-permalink: /about/
 ---
 
 <img src="/stock-photo.jpg" alt="小雨田" style="width:150px;max-width:40%;float:right;margin:0 0 1rem 1rem;border-radius:8px;">
