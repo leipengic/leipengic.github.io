@@ -9,8 +9,7 @@ lang: zh-CN
 timezone: Asia/Shanghai
 locale: zh-CN
 
-# 文章永久链接（保留原结构，避免旧链接失效）
-permalink: /:year/:month/:day/:title.html
+# 文章永久链接在下方 defaults 中仅对 posts 设置，避免影响 tabs 页面
 
 # ===== 主题外观：light / dark =====
 theme_mode: light
@@ -39,3 +38,7 @@ defaults:
       type: "tabs"
     values:
       layout: "page"
+  - scope:
+      type: "posts"
+    values:
+      permalink: /:year/:month/:day/:title.html
