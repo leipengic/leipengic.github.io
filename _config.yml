@@ -26,3 +26,9 @@ exclude:
   - .idea
   - README.md
   - LICENSE
+
+# 社交链接（页脚展示；请把占位符替换为你的真实地址）
+social:
+  github: "https://github.com/leipengic"
+  bilibili: "https://space.bilibili.com/你的UID"
+  wechat: "https://weixin.qq.com/r/你的公众号二维码或主页"

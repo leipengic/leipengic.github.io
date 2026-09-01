@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}. 由 Jekyll &amp; minima 驱动。</p>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.social.github %}<li><a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a></li>{% endif %}
+          {% if site.social.bilibili %}<li><a href="{{ site.social.bilibili }}" target="_blank" rel="noopener">哔哩哔哩</a></li>{% endif %}
+          {% if site.social.wechat %}<li><a href="{{ site.social.wechat }}" target="_blank" rel="noopener">微信公众号</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
