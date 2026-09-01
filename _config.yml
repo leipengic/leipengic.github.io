@@ -6,6 +6,9 @@ timezone: Asia/Shanghai
 baseurl: ""
 url: "https://hyx.leipeng.us.kg"
 
+# 文章永久链接：去掉分类前缀，保持 /年/月/日/标题.html 的干净结构
+permalink: /:year/:month/:day/:title.html
+
 # 博客主题：minima 是 Jekyll 官方博客主题，自带文章列表/导航/RSS
 theme: minima
 
